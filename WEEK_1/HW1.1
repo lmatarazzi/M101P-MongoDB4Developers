@@ -18,3 +18,21 @@ This is not the correct number;
 you should get a different number.
 ------ SOLUTION ------
 dowload all folder --> WEEK_1/HW1.1/dump
+1) create db folder for storage e start MongoDB process:
+	mkdir db
+	(UNIX)    mongod --dbpath db --logpath db/mongod.log --smallfiles --port 27017  
+	(WINDOWS) "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" --dbpath db --logpath db/mongod.log --smallfiles --port 27017 
+2) use mongorestore for restore database:
+	(UNIX)    mongorestore dump  
+	(WINDOWS) "C:\Program Files\MongoDB\Server\3.4\bin\mongorestore.exe" dump 	
+	output like it:
+		2017-04-27T15:38:44.369+0200    preparing collections to restore from
+		2017-04-27T15:38:44.625+0200    reading metadata for m101.hw1 from dump\m101\hw1.metadata.json
+		2017-04-27T15:38:44.625+0200    reading metadata for m101.funnynumbers from dump\m101\funnynumbers.metadata.json
+		2017-04-27T15:38:44.654+0200    restoring m101.hw1 from dump\m101\hw1.bson
+		2017-04-27T15:38:44.681+0200    no indexes to restore
+		2017-04-27T15:38:44.681+0200    finished restoring m101.hw1 (1 document)
+		2017-04-27T15:38:44.683+0200    restoring m101.funnynumbers from dump\m101\funnynumbers.bson
+		2017-04-27T15:38:44.685+0200    no indexes to restore
+		2017-04-27T15:38:44.686+0200    finished restoring m101.funnynumbers (100 documents)
+		2017-04-27T15:38:44.686+0200    done
