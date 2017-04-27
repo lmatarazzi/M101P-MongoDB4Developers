@@ -1,2 +1,6 @@
-A seguire i link delle lezioni:
-+
+Chapter 1:Introduction
+Chapter 2:CRUD
+Chapter 3:Schema Design
+Chapter 4:Performance
+Chapter 5:Aggregation Framework
+Chapter 6:Application Engineering
