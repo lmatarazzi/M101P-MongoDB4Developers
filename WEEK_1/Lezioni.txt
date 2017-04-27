@@ -1,4 +1,4 @@
-Chapter 1:Introduction
+https://youtu.be/VB0ShLzNMRMChapter 1:Introduction
 Chapter 2:CRUD
 Chapter 3:Schema Design
 Chapter 4:Performance
