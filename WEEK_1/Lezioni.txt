@@ -1,4 +1,10 @@
-https://youtu.be/VB0ShLzNMRMChapter 1:Introduction
+(N.B. Please install MongoDB 3.2.x. We will use MongoDB 3.2 for this course.)
+Chapter 1:Introduction
+          A) --> https://youtu.be/VB0ShLzNMRM
+          B) --> https://youtu.be/L-v-PBVLSe4
+          C) --> https://youtu.be/_e0J06elxb8
+          D) --> https://youtu.be/_WJ8m5QHvwc 
+          E) --> https://youtu.be/sBdaRlgb4N8
 Chapter 2:CRUD
 Chapter 3:Schema Design
 Chapter 4:Performance
