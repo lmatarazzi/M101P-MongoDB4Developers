@@ -36,3 +36,26 @@ dowload all folder --> WEEK_1/HW1.1/dump
 		2017-04-27T15:38:44.685+0200    no indexes to restore
 		2017-04-27T15:38:44.686+0200    finished restoring m101.funnynumbers (100 documents)
 		2017-04-27T15:38:44.686+0200    done
+3) use mongo shell for check and answere:
+	(UNIX)    mongo  
+	(WINDOWS) "C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe"
+	> show dbs
+	admin  0.000GB
+	local  0.000GB
+	m101   0.000GB
+	> use m101
+	switched to db m101
+	> show collections
+	funnynumbers
+	hw1
+	> db.hw1.findOne()
+	{
+        	"_id" : ObjectId("50773061bf44c220307d8514"),
+        	"answer" : 42,
+        	"question" : "The Ultimate Question of Life, The Universe and Everything"
+	}
+	
+
+THE ANSWARE IS: 42
+	
+	
