@@ -5,6 +5,9 @@ Chapter 1:Introduction
           C) --> https://youtu.be/_e0J06elxb8
           D) --> https://youtu.be/_WJ8m5QHvwc 
           E) --> https://youtu.be/sBdaRlgb4N8
+          F) --> https://youtu.be/YgE9GugiB58
+          G) --> https://youtu.be/Iun2ei_XlWw
+          
 Chapter 2:CRUD
 Chapter 3:Schema Design
 Chapter 4:Performance
